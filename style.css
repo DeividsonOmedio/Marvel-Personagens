@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: #000000;
+    background-image: url(marvcel.gif), linear-gradient(217deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+    background-size: 150vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: url(escudo\ 1.cur), default;
+    padding-top: 5%;
+}
+
+input{
+    width: 50%;
+    height: 50px;
+    margin: 5% 0;
+    border-radius: 15px;
+    background-color: #002424;
+    color: #a52544;
+    font-family: cursive;
+    font-size: 2rem;
+}
+input:hover{
+    filter: brightness(3);
+    transition: all 1s;
+    cursor: url(aranha1.cur), default;
+}
+ul{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+    list-style-type: none;
+}
+li{
+    background-color: #ffffff3d;
+    width: 300px;
+    margin: 4% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: .7rem;
+    box-shadow:  1px 1px 6px 6px black;
+}
+.normal:hover{
+    border: solid 4px black;
+    box-shadow:  1px 1px 4px 4px black;
+    z-index: 10;
+    transition: all .3s;
+    transform: scale(1.1);
+}
+img{
+    width: 100%;
+    align-items: center;
+  
+}
+h2{
+    font-size: 2rem;
+    font-family: cursive;
+    text-align: center;
+}
+button{
+    margin: 5%;
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #005658;
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+button:hover{
+    filter: brightness(2);
+    transition: all 1s;
+}
+
+
+section{
+    display: none;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #ffffff50;
+    width: 100vw;
+    height: 100vh;
+    cursor: url(exit.cur), default;
+}
+section > ul{
+    background-image: url(av.webp);
+    background-size: cover;
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    scale: 1.7;
+    transform: none;
+    cursor: url(hulk.cur), default;
+}
+#ulModal{
+    padding: auto;
+    width: 350px;
+    transform: none;
+
+}
+section h2{
+    font-size: .7rem;
+    margin: 3% 0;
+}
+section h3{
+    font-size: .7rem;
+}
+section img{
+    max-height: 200px;
+}
+
+
+.typewriter h1 {
+    color: #181212;
+    font-family: 'Rubik Pixels', cursive;
+    overflow: hidden; 
+    border-right: 0.15em solid orange; 
+    white-space: nowrap; 
+    margin: 5% auto;
+    letter-spacing: 0.15em; 
+    animation: typing 3.5s steps(120, end) alternate infinite,
+      blink-caret 0.5s step-end infinite, rotateText 3.5s ease alternate infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+  
+  @keyframes rotateText {
+    0% {
+      transform: rotate(0);
+    }
+    25% {
+      transform: rotate(10deg) scale(1.5) translateX(10px) skewY(10deg);
+    }
+    75% {
+      transform: rotate(-10deg) scale(0.8) translateX(-10px) skewY(-10deg);
+    }
+    100% {
+      transform: rotate(5deg) scale(1.2) translateX(5px) skewY(5deg);
+    }
+  }
+  
